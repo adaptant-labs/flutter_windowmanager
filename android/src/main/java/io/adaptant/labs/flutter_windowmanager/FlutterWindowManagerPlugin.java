@@ -29,6 +29,7 @@ public class FlutterWindowManagerPlugin implements MethodCallHandler {
    * Validate flag specification against WindowManager.LayoutParams and API levels, as per:
    * https://developer.android.com/reference/android/view/WindowManager.LayoutParams
    */
+  @SuppressWarnings("deprecation")
   private boolean validLayoutParam(int flag) {
     switch (flag) {
       case WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON:
