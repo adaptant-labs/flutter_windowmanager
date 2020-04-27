@@ -83,6 +83,15 @@ please let us know in the [issue tracker][tracker].
 
 [LayoutParams]: https://developer.android.com/reference/android/view/WindowManager.LayoutParams.html
 
+## iOS Support
+
+As `flutter_windowmanager` only wraps and exposes an underlying Android-specific
+interface, there is no iOS support planned or possible. For those interested in
+cross-platform `FLAG_SECURE` functionality, this functionality has been re-created
+in the third-party [secure_application] plugin.
+
+[secure_application]: https://pub.dev/packages/secure_application
+
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
