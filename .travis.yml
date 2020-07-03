@@ -26,15 +26,6 @@ script:
   - flutter analyze --no-pub --no-current-package lib
   # - flutter test
   - flutter packages pub publish --dry-run
-before_deploy:
-  - chmod +x ./.travis/publish.sh # giving execution permissions to this file to avoid error 127.
-  - mv ./.travis ../
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: "../.travis/publish.sh"
-  on:
-    tags: true
 cache:
   directories:
     - $HOME/.pub-cache
