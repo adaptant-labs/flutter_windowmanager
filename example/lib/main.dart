@@ -25,21 +25,22 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               Text('Secure Mode: ${_secureMode.toString()}\n'),
               RaisedButton(
-                onPressed: () async {
-                  final secureModeToggle = !_secureMode;
+                  onPressed: () async {
+                    final secureModeToggle = !_secureMode;
 
-                  if (secureModeToggle == true) {
-                    await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
-                  } else {
-                    await FlutterWindowManager.clearFlags(FlutterWindowManager.FLAG_SECURE);
-                  }
+                    if (secureModeToggle == true) {
+                      await FlutterWindowManager.addFlags(
+                          FlutterWindowManager.FLAG_SECURE);
+                    } else {
+                      await FlutterWindowManager.clearFlags(
+                          FlutterWindowManager.FLAG_SECURE);
+                    }
 
-                  setState(() {
-                    _secureMode = !_secureMode;
-                  });
-                },
-                child: const Text("Toggle Secure Mode")
-              ),
+                    setState(() {
+                      _secureMode = !_secureMode;
+                    });
+                  },
+                  child: const Text("Toggle Secure Mode")),
             ],
           ),
         ),

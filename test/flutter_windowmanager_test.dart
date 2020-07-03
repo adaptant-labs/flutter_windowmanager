@@ -22,7 +22,7 @@ void main() {
     expect(
       log,
       <Matcher>[
-        isMethodCall('addFlags', arguments: <String, int> {
+        isMethodCall('addFlags', arguments: <String, int>{
           'flags': FlutterWindowManager.FLAG_SECURE,
         })
       ],
@@ -34,7 +34,7 @@ void main() {
     expect(
       log,
       <Matcher>[
-        isMethodCall('clearFlags', arguments: <String, int> {
+        isMethodCall('clearFlags', arguments: <String, int>{
           'flags': FlutterWindowManager.FLAG_SECURE,
         })
       ],
