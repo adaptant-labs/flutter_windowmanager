@@ -6,7 +6,7 @@
 A Flutter plugin for manipulating Android WindowManager LayoutParams
 dynamically at application run-time.
 
-![Example App Use](screenshot.jpg)
+<img alt="Example App Use" src="https://raw.githubusercontent.com/adaptant-labs/flutter_windowmanager/master/overview.gif" width="270"/>
 
 ## Motivation
 
@@ -88,9 +88,11 @@ please let us know in the [issue tracker][tracker].
 As `flutter_windowmanager` only wraps and exposes an underlying Android-specific
 interface, there is no iOS support planned or possible. For those interested in
 cross-platform `FLAG_SECURE` functionality, this functionality has been re-created
-in the third-party [secure_application] plugin.
+in the third-party [secure_application] package. Cross-platform `FLAG_KEEP_SCREEN_ON`
+functionality is provided by the third-party [keep_screen_on] package.
 
 [secure_application]: https://pub.dev/packages/secure_application
+[keep_screen_on]: https://pub.dev/packages/keep_screen_on
 
 ## Features and bugs
 
@@ -101,4 +103,6 @@ Please file feature requests and bugs at the [issue tracker][tracker].
 ## License
 
 Licensed under the terms of the Apache 2.0 license, the full version of which can be found in the
-[LICENSE](LICENSE) file included in the distribution.
+[LICENSE] file included in the distribution.
+
+[LICENSE]: https://raw.githubusercontent.com/adaptant-labs/flutter_windowmanager/master/LICENSE
