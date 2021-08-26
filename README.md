@@ -1,6 +1,6 @@
 # flutter_windowmanager
 
-[![Build Status](https://travis-ci.com/adaptant-labs/flutter_windowmanager.svg?branch=master)](https://travis-ci.com/adaptant-labs/flutter_windowmanager#)
+[![Build Status](https://travis-ci.com/adaptant-labs/flutter_windowmanager.svg?branch=master)](https://app.travis-ci.com/github/adaptant-labs/flutter_windowmanager)
 [![Pub](https://img.shields.io/pub/v/flutter_windowmanager.svg)](https://pub.dartlang.org/packages/flutter_windowmanager)
 
 A Flutter plugin for manipulating Android WindowManager LayoutParams
