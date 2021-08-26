@@ -1,3 +1,7 @@
+## 0.2.0
+
+* Finish flutter embedding v2 migration. #17
+
 ## 0.1.0
 
 * null-safety migration (@ValeteTech, PR#16)
