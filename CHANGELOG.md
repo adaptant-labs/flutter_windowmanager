@@ -1,3 +1,7 @@
+## 0.3.0
+
+* Upgrade to AGP 8.1.0 (migrate namespace to build.gradle)
+
 ## 0.2.0
 
 * Finish flutter embedding v2 migration. #17
