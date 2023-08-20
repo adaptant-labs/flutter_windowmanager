@@ -19,7 +19,7 @@ void main() {
     expect(
       find.byWidgetPredicate(
         (Widget widget) =>
-            widget is Text && widget.data.startsWith('Secure Mode:'),
+            widget is Text && widget.data!.startsWith('Secure Mode:'),
       ),
       findsOneWidget,
     );
